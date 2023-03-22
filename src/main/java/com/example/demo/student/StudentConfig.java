@@ -13,19 +13,17 @@ import static java.time.Month.FEBRUARY;
 public class StudentConfig {
     @Bean
     CommandLineRunner commandLineRunner(StudentRepository studentRepository) {
-        return args ->  {
+        return args -> {
             Student johnDoe = new Student(
                     "John Doe",
                     "j.doe@gmail.com",
-                    LocalDate.of(2000, FEBRUARY, 20),
-                    23
+                    LocalDate.of(2000, FEBRUARY, 20)
             );
 
             Student joeBlack = new Student(
                     "Joe Black",
                     "j.black@gmail.com",
-                    LocalDate.of(2002, FEBRUARY, 15),
-                    21
+                    LocalDate.of(2002, FEBRUARY, 15)
             );
 
             studentRepository.saveAll(
