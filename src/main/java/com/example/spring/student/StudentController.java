@@ -1,9 +1,8 @@
-package com.example.demo.student;
+package com.example.spring.student;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController

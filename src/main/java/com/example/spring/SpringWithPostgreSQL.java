@@ -1,12 +1,12 @@
-package com.example.demo;
+package com.example.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringWithPostgreSQL {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(SpringWithPostgreSQL.class, args);
     }
 }
